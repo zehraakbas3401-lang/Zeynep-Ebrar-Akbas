@@ -111,6 +111,18 @@
             color: #9c27b0;
         }
 
+        /* Menu header showing "Katalog" */
+        .menu-header {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #9c27b0;
+            text-align: center;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(156, 39, 176, 0.06);
+            border: 2px solid rgba(156, 39, 176, 0.12);
+        }
+
         /* Main Content */
         .container {
             max-width: 1000px;
@@ -320,6 +332,7 @@
     <nav>
         <button class="menu-toggle" onclick="toggleMenu()">Katalog</button>
         <div class="menu" id="menu">
+            <div class="menu-header">Katalog</div>
             <a onclick="showSection('about')">👤 Hakkımda</a>
             <a onclick="showSection('interests')">💖 İlgi Alanlarım</a>
             <a onclick="showSection('projects')">🚀 Projelerim</a>
